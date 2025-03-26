@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environment directories
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# IDE / Editor settings
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables file
+.env
+
+# Database file
+repo_vuln.db
+
+# Log files
+openai_logs.txt
+
+# Output directories
+sboms/
+aggregated_vulnerabilities.json
+nvdcve_feed/
+repos/
